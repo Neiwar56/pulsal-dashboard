@@ -10,7 +10,7 @@ Le projet est déployé et accessible ici :
 
 ---
 
-## 🛠 Stack Technique
+##  Stack Technique
 Ce projet utilise les technologies  imposées par le cahier des charges :
 
 * **Framework :** [Next.js 14](https://nextjs.org/) (App Router)
@@ -25,7 +25,7 @@ Ce projet utilise les technologies  imposées par le cahier des charges :
 Pour tester le projet localement sur votre machine :
 
 1.  **Cloner le repository :**
-    git clone [https://github.com/VOTRE-USERNAME/pulsal-dashboard.git](https://github.com/VOTRE-USERNAME/pulsal-dashboard.git)
+    git clone [https://github.com/Neiwar56/pulsal-dashboard.git]
     cd pulsal-dashboard
     ```
 
@@ -41,7 +41,7 @@ Pour tester le projet localement sur votre machine :
 
 ---
 
-## 📱 Pages Implémentées
+##  Pages Implémentées
 
 L'application comprend 4 pages principales entièrement responsive :
 
