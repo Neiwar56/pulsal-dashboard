@@ -1,23 +1,22 @@
 # PulsAl - Dashboard CRM 
 
-![PulsAl Banner](https://via.placeholder.com/1200x400/3590E3/ffffff?text=PulsAl+Dashboard)
 
 > Ce projet a été réalisé dans le cadre du test d'intégration technique pour le stage chez HARNIX. Il s'agit d'une interface de Dashboard CRM moderne, réactive et animée.
 
 ##  Démo en ligne
 Le projet est déployé et accessible ici :  
- **[Voir la démo sur Vercel](https://pulsal-dashboard.vercel.app)** *(Remplace ce lien une fois déployé)*
+ **[Voir la démo sur Vercel](https://pulsal-dashboard.vercel.app/)** 
 
 ---
 
 ##  Stack Technique
 Ce projet utilise les technologies  imposées par le cahier des charges :
 
-* **Framework :** [Next.js 14](https://nextjs.org/) (App Router)
-* **Styling :** [TailwindCSS](https://tailwindcss.com/)
-* **Icônes :** [Lucide React](https://lucide.dev/)
-* **Animations :** [Framer Motion](https://www.framer.com/motion/) (Transitions de pages & éléments)
-* **Graphiques :** [Recharts](https://recharts.org/)
+* **Framework :** [Next.js 14] (App Router)
+* **Styling :** [TailwindCSS]
+* **Icônes :** [Lucide React]
+* **Animations :** [Framer Motion] (Transitions de pages & éléments)
+* **Graphiques :** [Recharts]
 
 ---
 
