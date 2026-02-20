@@ -6,9 +6,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 // ... (Gardons les mêmes données conversations, mais ajoutons des détails pour le profil) ...
 const conversations = [
-  { id: 1, name: "Thomas Dubois", avatar: "TD", lastMessage: "Merci pour votre réponse rapide !", time: "10:23", unread: 0, status: "online", tag: "Support", color: "bg-blue-100 text-blue-600", email: "thomas.d@gmail.com", phone: "+33 6 12 34 56 78", company: "Tech Solutions", role: "CTO" },
-  { id: 2, name: "Sarah Connors", avatar: "SC", lastMessage: "Je n'arrive pas à valider mon panier...", time: "09:45", unread: 2, status: "offline", tag: "Urgent", color: "bg-red-100 text-red-600", email: "s.connors@skynet.com", phone: "+33 6 98 76 54 32", company: "Cyberdyne", role: "Lead Dev" },
-  { id: 3, name: "Entreprise XYZ", avatar: "EX", lastMessage: "La facture est-elle disponible ?", time: "Hier", unread: 0, status: "away", tag: "Compta", color: "bg-gray-100 text-gray-600", email: "compta@xyz.com", phone: "+33 1 23 45 67 89", company: "XYZ Corp", role: "Comptable" },
+  { id: 1, name: "Freddy ZANNOU", avatar: "FZ", lastMessage: "Merci pour votre réponse rapide !", time: "10:23", unread: 0, status: "online", tag: "Support", color: "bg-blue-100 text-blue-600", email: "thomas.d@gmail.com", phone: "+33 6 12 34 56 78", company: "Tech Solutions", role: "CTO" },
+  { id: 2, name: "Christvie GOUGLA", avatar: "CG", lastMessage: "Je n'arrive pas à valider mon panier...", time: "09:45", unread: 2, status: "offline", tag: "Urgent", color: "bg-red-100 text-red-600", email: "s.connors@skynet.com", phone: "+33 6 98 76 54 32", company: "Cyberdyne", role: "Lead Dev" },
+  { id: 3, name: "Mobile Electronics", avatar: "ME", lastMessage: "La facture est-elle disponible ?", time: "Hier", unread: 0, status: "away", tag: "Compta", color: "bg-gray-100 text-gray-600", email: "compta@xyz.com", phone: "+33 1 23 45 67 89", company: "XYZ Corp", role: "Comptable" },
 ];
 
 const initialMessages = [
@@ -75,9 +75,8 @@ export default function MessagesPage() {
         </div>
       </div>
 
-      {/* 2. ZONE DE CHAT */}
+      
       <div className="flex-1 flex flex-col bg-slate-50 relative">
-        {/* Header Chat */}
         <div className="h-16 border-b border-gray-200 flex items-center justify-between px-6 bg-white shadow-sm z-10">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => setShowProfile(!showProfile)}>
             <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-400 to-primary flex items-center justify-center text-white font-bold shadow-lg shadow-blue-200">
